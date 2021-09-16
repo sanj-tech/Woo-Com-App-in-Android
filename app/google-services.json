@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441556930191",
+    "project_id": "woocomapp-4434a",
+    "storage_bucket": "woocomapp-4434a.appspot.com",
+    "string_url": "https://woocomapp-4434a-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441556930191:android:5d5cde143afc2797d02afa",
+        "android_client_info": {
+          "package_name": "com.jsstech.woocommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441556930191-nnp6musrtpld997eoo07qpnc00qnklbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb9BA2fKqDMafWOms5TidWbbE6CMCQe30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441556930191-nnp6musrtpld997eoo07qpnc00qnklbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

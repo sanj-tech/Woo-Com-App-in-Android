@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmFinalOrderActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please write your Shipment Details"
+        android:gravity="center"
+        android:textColor="#CD0A0A"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/shipName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text=" Your Name"/>
+    <EditText
+        android:id="@+id/shipAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=" Your Address"/>
+    <EditText
+        android:id="@+id/shipPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=" Your Phone Number"/>
+    <EditText
+        android:id="@+id/shipcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=" Your City name"/>
+
+
+    <Button
+        android:id="@+id/confirmBt"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttondesign"
+        android:text="Confirm Order"
+        app:backgroundTint="#ff0000">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

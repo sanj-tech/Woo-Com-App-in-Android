@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".ResetPassActivity">
+
+    <TextView
+        android:id="@+id/reset_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+
+        android:background="#EF2C2C"
+        android:gravity="center"
+        android:text="Reset Password"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/ph_no"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapeborder"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="Please write your phone number">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/title_ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer the Following Security Question"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/purple_700"
+        >
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/ques1_no"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+      android:hint="your favourite movie name?">
+
+    </EditText>
+    <EditText
+        android:id="@+id/ques2_no"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+       android:hint="Name of your best friend?">
+
+    </EditText>
+    <EditText
+        android:id="@+id/ques3_no"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="Your birth place ?">
+
+    </EditText>
+    <Button
+        android:id="@+id/verify_bt"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/shapeborder"
+        app:backgroundTint="#ff0000"
+        android:text="Verify">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

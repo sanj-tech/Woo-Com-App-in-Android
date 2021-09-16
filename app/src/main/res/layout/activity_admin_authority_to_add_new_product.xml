@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".AdminAuthorityToAddNewProductActivity">
+
+    <ImageView
+        android:id="@+id/picImage"
+        android:layout_width="312dp"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cam"
+
+        >
+
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="305dp"
+
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapeborder"
+        android:hint="product name..."
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:inputType="textMultiLine">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/product_descr"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapeborder"
+        android:hint="product Description..."
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:inputType="textMultiLine">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapeborder"
+        android:hint="product Price..."
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="365dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:backgroundTint="#ff0000"
+        android:background="@drawable/buttondesign"
+        android:text="Add Product"
+        >
+
+    </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".CartActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/totall_price"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttondesign"
+        android:text="Total Price ="
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#ff0000">
+
+    </TextView>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_ListRv"
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
+        android:layout_marginTop="5dp">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+    <TextView
+        android:id="@+id/msg_one"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Congrulation your final order has been placed coming soon at you door steps.soon it will be verified"
+        android:textColor="#ff0000"
+        android:textDirection="firstStrong"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:backgroundTint="#ff0000">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/next_procee_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttondesign"
+        android:text="Next"
+
+        android:textAllCaps="false"
+        app:backgroundTint="#ff0000">
+
+
+    </Button>
+
+
+</LinearLayout>

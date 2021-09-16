@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".ProductDetailsActivity">
+
+    <ImageView
+        android:id="@+id/product_imageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"></ImageView>
+    <TextView
+        android:id="@+id/detail_prodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center">
+
+    </TextView>
+    <TextView
+        android:id="@+id/detail_prodDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Description"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detail_prodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Price"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:gravity="center">
+
+    </TextView>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/numberBt"
+        android:layout_width="259dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="10dp"
+        android:elevation="6dp"
+
+        android:background="@drawable/buttondesign"
+        app:backgroundTint="#ff0000"
+        android:layout_gravity="center"
+        app:finalNumber="10"
+        app:initialNumber="1"
+        app:textSize="15dp">
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    <Button
+        android:id="@+id/prodD_addto_Cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttondesign"
+        app:backgroundTint="#ff0000"
+        android:layout_marginTop="60dp"
+        android:text="Add to Cart"
+        android:textSize="15dp">
+
+    </Button>
+
+</LinearLayout>

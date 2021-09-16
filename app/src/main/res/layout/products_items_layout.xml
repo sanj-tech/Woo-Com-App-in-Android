@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardElevation="17dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mProd_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#9E0202"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:text="Products Name"
+                android:gravity="center_horizontal">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/mProd_image"
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp">
+
+
+            </ImageView>
+            <TextView
+                android:id="@+id/mProd_prices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#9E0202"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:text="Product Price"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/mProd_Descr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#9E0202"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:text="Product Description"
+                android:gravity="center_horizontal"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
